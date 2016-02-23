@@ -11,7 +11,7 @@ namespace Lucene.Models {
     public class LuceneDocumentIndex : IDocumentIndex {
 
         public List<AbstractField> Fields { get; private set; }
-
+        //Antonios Har gjort en kommentar!
         private string _name;
         private string  _stringValue;
         private int _intValue;
